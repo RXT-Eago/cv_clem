@@ -1,8 +1,33 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import tailwindStyles from '../styles/tailwind.module.css'
 
 export default function Home() {
+
+  // get a4 div width and set the height to 1.414 times the width
+
+  let Name = "text-gris text-xl text-center"
+
+  let Title = "text-gris text-title text-left font-bold pt-5"
+
+  let Intitule = "text-black text-nomComp text-left font-bold opacity-100"
+
+  let Locdate = "text-gris text-para text-right font-bold opacity-60"
+
+  let Moi = "text-gris text-para text-center font-bold opacity-60"
+
+  let Desc = "text-black text-para text-left py-[2px]"
+
+  let line = "my-1 mx-auto w-92 h-[2px] bg-gray-300 rounded border-0 dark:bg-gray-700"
+
+  let facteur = 1.2
+
+  let a4Width = Math.ceil(595 * facteur)
+
+  let a4Height = Math.ceil(842 * facteur)
+
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,60 +37,403 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+        <div id="a4" className={`bg-white w-[${a4Width}px] h-[${a4Height}px] p-5`}>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          <p className={`${Name}`}>
+            CLEMENT <span className='font-bold opacity-100 text-black'> DELBARRE </span>
+          </p>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+
+          <p className={`${Moi} py-1`}>
+            Majeur Sytèmes d'Information  | 
+            <span>
+            <a href="mailto:clement.delbarre@edu.ece.fr" > clement.delbarre@edu.ece.fr | </a>
+            </span>
+             0784322554 | 
+            <a href="https://github.com/RXT-Eago" > github.com/RXT-Eago</a>
+          </p>
+
+          <p className={`${Desc} pt-1 text-justify`}>
+            Organisé, créatif et travailleur, je suis étudiant en 5ème année majeur Systèmes d'information à l’ECE dans laquelle j’étudie l'informatique afin de développer mes compétences dans le domaine de la cybersécurité.
+          </p>
+
+          <p className={`${Title}`}>
+            Formation
+          </p>
+          <hr className={`${line}`}></hr>
+
+          <div className="flex">
+
+            <div className='w-1/2'>
+              <p className={`${Desc} font-semibold`}>
+                ECE Paris - Majeur Systèmes Information
+              </p>
+            </div>
+            <div className='w-1/2'>
+              <p className={`${Locdate}`}>
+                2019 - 2024
+              </p>
+            </div>
+
+          </div>
+          <p className={`${Desc}`}>
+            <span className='font-bold px-2'>• Cours:</span>   Systèmes d'exploitation, Réseaux, Bases de données, Technologies Web, DevOps
+          </p>
+
+          <div className="flex pt-2">
+
+            <div className='w-4/5'>
+              <p className={`${Desc} font-semibold`}>
+                Bangor University - Semestre d'échange international
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Septembre - Décembre 2021
+              </p>
+            </div>
+
+          </div>
+          <p className={`${Desc}`}>
+            <span className='font-bold px-2'>• Cours:</span>   UI-UX, Linux, Electronics
+          </p>
+
+          <p className={`${Title}`}>
+            Skills
+          </p>
+          <hr className={`${line}`}></hr>
+
+          <div className="flex">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>Languages:</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                C, C++, Python, Java, SQL, Javascript, HTML, CSS, TailWind
+              </p>
+            </div>
+          </div>
+          <div className="flex">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>Technologies:</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                ReactJS, NextJS, MongoDB, MySQL, Git
+              </p>
+            </div>
+
+
+          </div>
+
+
+          <p className={`${Title}`}>
+            Expérience professionnelle
+          </p>
+
+          <hr className={`${line}`}></hr>
+
+
+          <div className="flex">
+
+            <div className='w-3/4'>
+              <p className={`${Desc}`}>
+                Stage Ingénieur 4ème année
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Guyancourt, 78290
+              </p>
+            </div>
+
+          </div>
+
+          <div className="flex">
+
+            <div className='w-3/4'>
+              <p className={`${Intitule}`}>
+                Renault 
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Avril - Août 2023
+              </p>
+            </div>
+
+          </div>
+
+          <p className={`${Desc}`}>
+            • Développement d'applications Android Automotive pour véhicule électrique (MEGANE E-TECH).
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Réalisation d'une application affichant la puissance de charge du véhicule sur l'écran d'info divertissement.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Réalisation d'une application permettant de notter les bornes de recharge à l'issue d'une session de charge.
+          </p>
+          <p className={`${Desc}`}>
+            • Etude sur la congestion des bornes de recharge et proposition de solutions.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Collecte et analyse de données sur deux mois via ChargeMap.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Création de graphique animées pour illustrer le phénomène.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Utilisation d'AWS (BDD) et Python (scrapp et graphique)
+          </p>
+          
+
+
+
+
+
+
+
+
+
+          <div className="flex pt-2">
+
+            <div className='w-3/4'>
+              <p className={`${Desc}`}>
+                Stage Ingénieur 3ème année
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Elancourt, 78990
+              </p>
+            </div>
+
+          </div>
+
+          <div className="flex">
+
+            <div className='w-3/4'>
+              <p className={`${Intitule}`}>
+                AIRBUS Defense and Space
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Janvier - Fevrier 2022
+              </p>
+            </div>
+
+          </div>
+
+          <p className={`${Desc}`}>
+            • Coréalisation d'un didacticiel de services de messagerie confidentielle à destination de la Direction Générale de l'Armement.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Utilisation de la suite Adobe pour la réalisation de vidéos et de présentation.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Développement Web pour publication de la documentation.
+          </p>
+
+
+          <div className="flex pt-2">
+
+            <div className='w-3/4'>
+              <p className={`${Desc}`}>
+                Stage Ingénieur 2ème année
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Elancourt, 78990
+              </p>
+            </div>
+
+          </div>
+
+          <div className="flex">
+
+            <div className='w-3/4'>
+              <p className={`${Intitule}`}>
+                Thales LAS France
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Janvier - Fevrier 2021
+              </p>
+            </div>
+
+          </div>
+
+          <p className={`${Desc}`}>
+            • Annotation d'images aériennes afin de détecter des véhicules. Ces images annotés sont ensuite utilisés pour l'entrainement d'un réseau de neurones.
+          </p>
+
+
+
+
+
+          <p className={`${Title}`}>
+            Projets
+          </p>
+          <hr className={`${line}`}></hr>
+
+          <div className="flex">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>TanHyper</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                Développement d'un indicateur technique boursier basé sur la tangente hyperbolique.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex pt-1">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>DailyPeakCrypto</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                Création d'un bot de trading publiant des signaux d'achat/vente via Twitter (RSI + TD Sequential)
+              </p>
+            </div>
+          </div>
+
+          <div className="flex  pt-1">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>Fiat500e widget</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                Développement d'un widget pour la Fiat 500E permettant d'accéder à des informations sur son véhicule électrique
+              </p>
+            </div>
+          </div>
+
+          <div className="flex  pt-1">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>BackTestSoft</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                Développement d'un logiciel de backtest pour tester des stratégies de trading.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex  pt-1">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>BitLocker</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                Réalisation d'une application python pour stocker avec chiffrement SHA-256 ses mots de passe.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex  pt-1">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>Doctomnes</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                Projet piscine en équipe afin de créer un site web de réservation de rendez-vous médicaux.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex  pt-1">
+            <div className='w-24'>
+              <p className={`${Desc}`}>
+                <span className='font-bold'>Jeux C/C++</span>
+
+              </p>
+            </div>
+            <div className='w-auto'>
+              <p className={`${Desc}`}>
+                Projets semestriels en équipe afin de créer un Tower Defense en C et un jeu de carte Pokemon C++.
+              </p>
+            </div>
+          </div>
+
+
+          <p className={`${Title}`}>
+            Centre D'intêret
+          </p>
+          <hr className={`${line}`}></hr>
+
+          <p className={`${Desc} pb-4`}>
+            Golf, Tennis, Finance, Cybersécurité
+          </p>
+
+
+
+
+          <p className={`${Title}`}>
+            Portfolio
+          </p>
+          <hr className={`${line}`}></hr>
+          
+
+          <div className="flex pt-1">
+
+            <div className='w-3/5'>
+              <div className=' rounded-xl w-16 h-16'>
+                <img src="/assets/images/QRCode.png" alt="" />
+              </div>
+            </div>
+            <div className='w-2/5'>
+              <p className={`${Locdate}`}>
+                <a href="https://clement-delbarre-web-site.vercel.app/" >
+                https://clement-delbarre-web-site.vercel.app/
+                </a>
+              </p>
+            </div>
+
+          </div>
+
+
+
+
+
+
         </div>
+
+
+
+
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }
