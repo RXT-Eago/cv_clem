@@ -128,7 +128,7 @@ export default function Home() {
             </div>
             <div className='w-auto'>
               <p className={`${Desc}`}>
-                ReactJS, NextJS, MongoDB, MySQL, Git
+                ReactJS, NextJS, MongoDB, MySQL, Git, AWS
               </p>
             </div>
 
