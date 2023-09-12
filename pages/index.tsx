@@ -52,8 +52,11 @@ export default function Home() {
             <span>
             <a href="mailto:clement.delbarre@edu.ece.fr" > clement.delbarre@edu.ece.fr | </a>
             </span>
-             0784322554 | 
-            <a href="https://github.com/RXT-Eago" > github.com/RXT-Eago</a>
+             07.84.32.25.54 | 
+            <a href="https://github.com/RXT-Eago" > github.com/RXT-Eago | </a>
+            <a href="https://clement-delbarre-web-site.vercel.app/" >
+              clementdelbarre.fr </a>
+             | TOEIC 820
           </p>
 
           <p className={`${Desc} pt-1 text-justify`}>
@@ -115,7 +118,7 @@ export default function Home() {
             </div>
             <div className='w-auto'>
               <p className={`${Desc}`}>
-                C, C++, Python, Java, SQL, Javascript, HTML, CSS, TailWind
+                C, C++, Python, Java, SQL, Javascript, PHP, HTML, CSS, TailWind, bash
               </p>
             </div>
           </div>
@@ -128,7 +131,7 @@ export default function Home() {
             </div>
             <div className='w-auto'>
               <p className={`${Desc}`}>
-                ReactJS, NextJS, MongoDB, MySQL, Git, AWS
+                ReactJS, NextJS, MongoDB, MySQL, Git, AWS, Android Automotive
               </p>
             </div>
 
@@ -147,7 +150,7 @@ export default function Home() {
 
             <div className='w-3/4'>
               <p className={`${Desc}`}>
-                Stage Ingénieur 4ème année
+                Développeur Full Stack, Stage Ingénieur 4ème année
               </p>
             </div>
             <div className='w-1/4'>
@@ -245,6 +248,7 @@ export default function Home() {
           </p>
 
 
+          {/*
           <div className="flex pt-2">
 
             <div className='w-3/4'>
@@ -259,7 +263,7 @@ export default function Home() {
             </div>
 
           </div>
-
+          
           <div className="flex">
 
             <div className='w-3/4'>
@@ -278,6 +282,7 @@ export default function Home() {
           <p className={`${Desc}`}>
             • Annotation d'images aériennes afin de détecter des véhicules. Ces images annotés sont ensuite utilisés pour l'entrainement d'un réseau de neurones.
           </p>
+          */}
 
 
 
@@ -392,8 +397,8 @@ export default function Home() {
           </p>
           <hr className={`${line}`}></hr>
 
-          <p className={`${Desc} pb-4`}>
-            Golf, Tennis, Finance, Cybersécurité
+          <p className={`${Desc} pl-1`}>
+            Golf • Tennis • Finance • Cybersécurité • Dev Web • Automobile 
           </p>
 
 
