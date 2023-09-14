@@ -54,13 +54,11 @@ export default function Home() {
             </span>
              07.84.32.25.54 | 
             <a href="https://github.com/RXT-Eago" > github.com/RXT-Eago | </a>
-            <a href="https://clement-delbarre-web-site.vercel.app/" >
-              clementdelbarre.fr </a>
              | TOEIC 820
           </p>
 
           <p className={`${Desc} pt-1 text-justify`}>
-            Organisé, créatif et travailleur, je suis étudiant en 5ème année majeur Systèmes d'information à l’ECE dans laquelle j’étudie l'informatique afin de développer mes compétences dans le domaine de la cybersécurité.
+            Organisé, créatif et travailleur, je suis étudiant en 5ème année majeur Systèmes d'Information, spécialisation Cybersécurité, à l’ECE dans laquelle j’étudie l'informatique afin de développer mes compétences dans le domaine de la cybersécurité.
           </p>
 
           <p className={`${Title}`}>
@@ -72,7 +70,7 @@ export default function Home() {
 
             <div className='w-1/2'>
               <p className={`${Desc} font-semibold`}>
-                ECE Paris - Majeur Systèmes Information
+                ECE Paris - Majeur Systèmes Information, Spécialisation Cybersécurité
               </p>
             </div>
             <div className='w-1/2'>
@@ -118,7 +116,7 @@ export default function Home() {
             </div>
             <div className='w-auto'>
               <p className={`${Desc}`}>
-                C, C++, Python, Java, SQL, Javascript, PHP, HTML, CSS, TailWind, bash
+                C, C++, Python, Java, SQL, bash, Javascript, PHP, HTML, CSS, TailWind
               </p>
             </div>
           </div>
@@ -131,7 +129,7 @@ export default function Home() {
             </div>
             <div className='w-auto'>
               <p className={`${Desc}`}>
-                ReactJS, NextJS, MongoDB, MySQL, Git, AWS, Android Automotive
+                ReactJS, NextJS, MongoDB, MySQL, Git, Docker, Cisco, AWS, Android Automotive
               </p>
             </div>
 
@@ -211,7 +209,7 @@ export default function Home() {
 
             <div className='w-3/4'>
               <p className={`${Desc}`}>
-                Stage Ingénieur 3ème année
+                Développeur, Stage Ingénieur 3ème année
               </p>
             </div>
             <div className='w-1/4'>
