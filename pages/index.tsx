@@ -48,12 +48,12 @@ export default function Home() {
 
 
           <p className={`${Moi} py-1`}>
-            Majeur Sytèmes d'Information  | 
+            Majeur Sytèmes d'Information & Cybersécurité  | 
             <span>
             <a href="mailto:clement.delbarre@edu.ece.fr" > clement.delbarre@edu.ece.fr | </a>
             </span>
              07.84.32.25.54 | 
-            <a href="https://github.com/RXT-Eago" > github.com/RXT-Eago | </a>
+            <a href="https://github.com/RXT-Eago" > github.com/RXT-Eago </a>
              | TOEIC 820
           </p>
 
@@ -81,7 +81,7 @@ export default function Home() {
 
           </div>
           <p className={`${Desc}`}>
-            <span className='font-bold px-2'>• Cours:</span>   Systèmes d'exploitation, Réseaux, Bases de données, Technologies Web, DevOps
+            <span className='font-bold px-2'>• Cours:</span>   Sécurité des systèmes d'information, Reverse Engineering, Forensics,Cryptographie, Gestion des identités hybrides, Sécurité Windows
           </p>
 
           <div className="flex pt-2">
