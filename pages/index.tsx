@@ -9,7 +9,7 @@ export default function Home() {
 
   let Name = "text-gris text-xl text-center"
 
-  let Title = "text-gris text-title text-left font-bold pt-5"
+  let Title = "text-gris text-title text-left font-bold pt-1"
 
   let Intitule = "text-black text-nomComp text-left font-bold opacity-100"
 
@@ -57,8 +57,8 @@ export default function Home() {
              | TOEIC 820
           </p>
 
-          <p className={`${Desc} pt-1 text-justify`}>
-            Organisé, créatif et travailleur, je suis étudiant en 5ème année majeur Systèmes d'Information, spécialisation Cybersécurité, à l’ECE dans laquelle j’étudie l'informatique afin de développer mes compétences dans le domaine de la cybersécurité.
+          <p className={`${Desc} pt-1 text-center`}>
+            Jeune étudiant passionné par l'informatique et la cybersécurité domaine dans lequel je souhaite approfondir mes connaissances.
           </p>
 
           <p className={`${Title}`}>
@@ -68,12 +68,12 @@ export default function Home() {
 
           <div className="flex">
 
-            <div className='w-1/2'>
+            <div className='w-2/3'>
               <p className={`${Desc} font-semibold`}>
                 ECE Paris - Majeur Systèmes Information, Spécialisation Cybersécurité
               </p>
             </div>
-            <div className='w-1/2'>
+            <div className='w-1/3'>
               <p className={`${Locdate}`}>
                 2019 - 2024
               </p>
@@ -175,7 +175,7 @@ export default function Home() {
           </div>
 
           <p className={`${Desc}`}>
-            • Développement d'applications Android Automotive pour véhicule électrique (MEGANE E-TECH) - <span className=" font-medium">Déploiement en Beta sur 100 véhicules </span> .
+            • Développement d'applications Android Automotive pour véhicule électrique (MEGANE E-TECH) - <span className=" font-medium">Déploiement Beta sur 100 véhicules </span>.
           </p>
           <p className={`${Desc} pl-3`}>
             • Réalisation d'une application affichant la puissance de charge du véhicule sur l'écran d'info divertissement 
