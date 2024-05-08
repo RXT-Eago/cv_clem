@@ -148,12 +148,12 @@ export default function Home() {
 
             <div className='w-3/4'>
               <p className={`${Desc}`}>
-                Développeur Full Stack, Stage Ingénieur 4ème année
+                Software Engineer
               </p>
             </div>
             <div className='w-1/4'>
               <p className={`${Locdate}`}>
-                Guyancourt, 78290
+                Plessis Robinson, 92350
               </p>
             </div>
 
@@ -163,7 +163,52 @@ export default function Home() {
 
             <div className='w-3/4'>
               <p className={`${Intitule}`}>
-                Renault 
+                MBDA 
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Février - Août 2024
+              </p>
+            </div>
+
+          </div>
+
+          <p className={`${Desc}`}>
+            • Développement d'un ordonnanceur d'injection réseau et cyber
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Conception et réalisation d'une refonte complète d'une application existante en C++ vers une architecture modernisée utilisant Java pour le back end et React pour le front end.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            •  Gestion de l'intégralité du cycle de développement, depuis l'analyse des besoins jusqu'à la mise en production, en incluant la définition des spécifications, le développement, les tests et le déploiement
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Documentation complète de l'architecture, des procédures de déploiement et développement pour assurer une maintenance facile et une évolutivité future de l'application
+          </p>
+
+
+
+          <div className="flex pt-2">
+
+            <div className='w-3/4'>
+              <p className={`${Desc}`}>
+                Software Engineer - Android Automotive
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Guyancourt, 78280
+              </p>
+            </div>
+
+            </div>
+
+            <div className="flex">
+
+            <div className='w-3/4'>
+              <p className={`${Intitule}`}>
+                Renault
               </p>
             </div>
             <div className='w-1/4'>
@@ -172,7 +217,7 @@ export default function Home() {
               </p>
             </div>
 
-          </div>
+          </div>          
 
           <p className={`${Desc}`}>
             • Développement d'applications Android Automotive pour véhicule électrique (MEGANE E-TECH) - <span className=" font-medium">Déploiement Beta sur 100 véhicules </span>.
@@ -181,7 +226,7 @@ export default function Home() {
             • Réalisation d'une application affichant la puissance de charge du véhicule sur l'écran d'info divertissement 
           </p>
           <p className={`${Desc} pl-3`}>
-            • Réalisation d'une application permettant de notter les bornes de recharge à l'issue d'une session de charge 
+            • Réalisation d'une application permettant de noter les bornes de recharge à l'issue d'une session de charge 
           </p>
           <p className={`${Desc}`}>
             • Etude sur la congestion des bornes de recharge et proposition de solutions.
@@ -190,7 +235,7 @@ export default function Home() {
             • Collecte et analyse de données sur deux mois via ChargeMap -  <span className=" font-medium"> Etude portée sur 1500 bornes de recharge </span> .
           </p>
           <p className={`${Desc} pl-3`}>
-            • Création de graphique animées pour illustrer le phénomène.
+            • Création de graphiques animés pour illustrer le phénomène.
           </p>
           <p className={`${Desc} pl-3`}>
             • Développement d'un site web pour la présentation des résultats.
@@ -379,7 +424,7 @@ export default function Home() {
 
           <p className={`${Title} flex w-full`}>
             <div className='w-1/2 flex justify-start items-center'>
-              Centre D'intêret
+              Centre d'intérêt
             </div>
             <div className='w-1/2 flex justify-end justify-items-end items-center'>
               Portfolio
