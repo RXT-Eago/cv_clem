@@ -58,7 +58,7 @@ export default function Home() {
           </p>
 
           <p className={`${Desc} pt-1 text-center`}>
-            Jeune étudiant passionné par l'informatique et la cybersécurité domaine dans lequel je souhaite approfondir mes connaissances.
+            Jeune étudiant passionné par l'informatique et la cybersécurité, domaine dans lequel je souhaite approfondir mes connaissances.
           </p>
 
           <p className={`${Title}`}>
@@ -178,7 +178,7 @@ export default function Home() {
             • Développement d'un ordonnanceur d'injection réseau et cyber
           </p>
           <p className={`${Desc} pl-3`}>
-            • Conception et réalisation d'une refonte complète d'une application existante en C++ vers une architecture modernisée utilisant Java pour le back end et React pour le front end.
+            • Conception et réalisation d'une refonte complète d'une application existante en C++ vers une architecture modernisée utilisant Java pour le backend et React pour le frontend.
           </p>
           <p className={`${Desc} pl-3`}>
             •  Gestion de l'intégralité du cycle de développement, depuis l'analyse des besoins jusqu'à la mise en production, en incluant la définition des spécifications, le développement, les tests et le déploiement
@@ -232,10 +232,10 @@ export default function Home() {
             • Réalisation d'une application permettant de noter les bornes de recharge à l'issue d'une session de charge 
           </p>
           <p className={`${Desc}`}>
-            • Etude sur la congestion des bornes de recharge et proposition de solutions.
+            • Étude sur la congestion des bornes de recharge et proposition de solutions.
           </p>
           <p className={`${Desc} pl-3`}>
-            • Collecte et analyse de données sur deux mois via ChargeMap -  <span className=" font-medium"> Etude portée sur 1500 bornes de recharge </span> .
+            • Collecte et analyse de données sur deux mois via ChargeMap -  <span className=" font-medium"> Etude portant sur 1500 bornes de recharge </span> .
           </p>
           <p className={`${Desc} pl-3`}>
             • Création de graphiques animés pour illustrer le phénomène.
@@ -277,7 +277,7 @@ export default function Home() {
             </div>
             <div className='w-1/4'>
               <p className={`${Locdate}`}>
-                Janvier - Fevrier 2022
+                Janvier - Février 2022
               </p>
             </div>
 
