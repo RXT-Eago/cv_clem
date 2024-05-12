@@ -81,7 +81,7 @@ export default function Home() {
 
           </div>
           <p className={`${Desc}`}>
-            <span className='font-bold px-2'>• Cours:</span>   Sécurité des systèmes d'information, Reverse Engineering, Forensics, Sécurité Windows, Réseaux, Développement Web, Cryptographie
+            <span className='font-bold px-2'>• Cours:</span>   Sécurité des systèmes d'information, Reverse Engineering, Forensics, DevOps, Réseaux, Développement Web, Cryptographie
           </p>
 
           <div className="flex pt-2">
@@ -182,6 +182,9 @@ export default function Home() {
           </p>
           <p className={`${Desc} pl-3`}>
             •  Gestion de l'intégralité du cycle de développement, depuis l'analyse des besoins jusqu'à la mise en production, en incluant la définition des spécifications, le développement, les tests et le déploiement
+          </p>
+          <p className={`${Desc} pl-3`}>
+            •  Rédaction de scripts de déploiement et conteneurisation de l'application avec Docker
           </p>
           <p className={`${Desc} pl-3`}>
             • Documentation complète de l'architecture, des procédures de déploiement et développement pour assurer une maintenance facile et une évolutivité future de l'application
