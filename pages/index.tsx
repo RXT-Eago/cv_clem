@@ -58,7 +58,7 @@ export default function Home() {
           </p>
 
           <p className={`${Desc} pt-1 text-center`}>
-            Jeune étudiant passionné par l'informatique et la cybersécurité, domaine dans lequel je souhaite approfondir mes connaissances.
+            Développeur Full-Stack curieux et passionné, j'aime explorer et approfondir des domaines techniques inconnus pour développer des solutions innovantes.
           </p>
 
           <p className={`${Title}`}>
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
             <div className='w-auto'>
               <p className={`${Desc}`}>
-                C, C++, Python, Java, SQL, bash, Javascript, PHP, HTML, CSS, TailWind
+                TS, Python, Bash, Tailwaind, SQL, Java
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function Home() {
             </div>
             <div className='w-auto'>
               <p className={`${Desc}`}>
-                ReactJS, NextJS, MongoDB, MySQL, Git, Docker, Android Automotive
+                ReactJS, NextJS, MongoDB, MySQL, Git, Docker, GitLab, CI/CD, Helm, K8s, Grafana, Prometheus
               </p>
             </div>
 
@@ -144,26 +144,146 @@ export default function Home() {
           <hr className={`${line}`}></hr>
 
 
-          <div className="flex">
-
+          <div className="flex pt-2">
             <div className='w-3/4'>
-              <p className={`${Desc}`}>
-                Software Engineer
+              <p className={`${Intitule}`}>
+                LTMG | Skilink
               </p>
             </div>
             <div className='w-1/4'>
               <p className={`${Locdate}`}>
-                Plessis Robinson, 92350
+                {/* Date à ajouter */}
               </p>
             </div>
-
           </div>
-
           <div className="flex">
+            <div className='w-full'>
+              <p className={`${Desc} font-semibold`}>
+                CTO / Lead Developer
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Janvier 2025 - Aujourd'hui
+              </p>
+            </div>
+          </div>
+          <p className={`${Desc} pl-3`}>
+            • Développement Full-Stack d'une plateforme SaaS d'édition de dossiers de compétences pour ESN et cabinets de conseil.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Conception et développement d'un pipeline d'extraction automatique de données depuis les CV via IA (OCR et LLM).
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Développement d'un système de matching intelligent via RAG et LLM utilisant Vertex AI (Google Cloud) pour faire correspondre les profils aux appels d'offres.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Développement d'une interface de gestion centralisée permettant l'import de CV selon des templates personnalisables et l'export en PDF/Word.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Architecture et développement de l'API backend et du frontend avec des frameworks modernes (FastAPI, NextJS).
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Mise en place de l'infrastructure DevOps avec Docker, Railway et Github Actions pour le déploiement.
+          </p>
+          <p className={`${Desc} font-medium`}>
+            Outils: React, NextJS, FastAPI, Docker, Railway, GitLab CI, SQL, Redis, Grafana, Metabase, Sentry, Vertex AI, LLM, RAG.
+          </p>
 
+
+
+          <div className="flex pt-2">
             <div className='w-3/4'>
               <p className={`${Intitule}`}>
-                MBDA 
+                AXA & Conduent | Stratumn
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                {/* Date à ajouter */}
+              </p>
+            </div>
+          </div>
+          <div className="flex">
+            <div className='w-full'>
+              <p className={`${Desc} font-semibold`}>
+                Dev Full Stack
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                février 2025 - Aujourd'hui
+              </p>
+            </div>
+          </div>
+          <p className={`${Desc} pl-3`}>
+            • Développement Full-Stack d'une plateforme logicielle basée sur la blockchain pour automatiser des workflows métier complexes dans le secteur de la réassurance.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Conception et implémentation de workflows pour les processus de ChargeBack en utilisant un DSL personnalisé.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Création d'un pipeline de génération de PDF scalable pour générer des documents PDF complexes avec pdf-lib.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Développement et déploiement de nouvelles fonctionnalités du backend au frontend en utilisant des frameworks modernes.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Travail au sein d'une équipe Agile Scrum, avec participation à la planification des sprints, aux revues et à la livraison des fonctionnalités.
+          </p>
+          <p className={`${Desc} font-medium`}>
+            Outils: React, Vite, Nest JS, Docker, Kubernetes, GitLab CI, SQL, Redis, Grafana, Sentry.
+          </p>
+
+
+          <div className="flex pt-2">
+            <div className='w-3/4'>
+              <p className={`${Intitule}`}>
+                RATP | WasteTracker
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                {/* Date à ajouter */}
+              </p>
+            </div>
+          </div>
+          <div className="flex">
+            <div className='w-full'>
+              <p className={`${Desc} font-semibold`}>
+                Dev Full Stack
+              </p>
+            </div>
+            <div className='w-1/4'>
+              <p className={`${Locdate}`}>
+                Septembre 2024 - Février 2025
+              </p>
+            </div>
+          </div>
+          <p className={`${Desc} pl-3`}>
+            • Développement d'une plateforme à grande échelle pour la gestion des déchets pour la RATP.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Construction de l'API Backend (Python, Flask) et conception de l'extraction des données des manifestes de déchets avec OCR et LLM.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Intégration de la communication en temps réel avec les API gouvernementales via des webhooks.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Implémentation de la couche d'analyse avec Metabase, déployée avec Helm et CI/CD personnalisée.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Amélioration du frontend de l'application à partir de maquettes Figma, amélioration globale de l'UX/UI.
+          </p>
+          <p className={`${Desc} font-medium`}>
+            Outils: Python (Flask), React (Redux, Antd), Helm, Kubernetes, GitLab CI, Metabase.
+          </p>
+
+
+          {/* <div className="flex pt-2">
+            <div className='w-3/4'>
+              <p className={`${Intitule}`}>
+                MBDA
               </p>
             </div>
             <div className='w-1/4'>
@@ -171,44 +291,31 @@ export default function Home() {
                 Février - Août 2024
               </p>
             </div>
-
           </div>
-
-          <p className={`${Desc}`}>
-            • Développement d'un ordonnanceur d'injection réseau et cyber
-          </p>
-          <p className={`${Desc} pl-3`}>
-            • Conception et réalisation d'une refonte complète d'une application existante en C++ vers une architecture modernisée utilisant Java pour le backend et React pour le frontend.
-          </p>
-          <p className={`${Desc} pl-3`}>
-            •  Gestion de l'intégralité du cycle de développement, depuis l'analyse des besoins jusqu'à la mise en production, en incluant la définition des spécifications, le développement, les tests et le déploiement
-          </p>
-          <p className={`${Desc} pl-3`}>
-            •  Rédaction de scripts de déploiement et conteneurisation de l'application avec Docker
-          </p>
-          <p className={`${Desc} pl-3`}>
-            • Documentation complète de l'architecture, des procédures de déploiement et développement pour assurer une maintenance facile et une évolutivité future de l'application
-          </p>
-
-
-
-          <div className="flex pt-2">
-
-            <div className='w-3/4'>
-              <p className={`${Desc}`}>
-                Software Engineer - Android Automotive
+          <div className="flex">
+            <div className='w-full'>
+              <p className={`${Desc} font-semibold`}>
+                Ingénieur Logiciel - Évolution et amélioration d'une application logicielle
               </p>
             </div>
-            <div className='w-1/4'>
-              <p className={`${Locdate}`}>
-                Guyancourt, 78280
-              </p>
-            </div>
+          </div>
+          <p className={`${Desc} pl-3`}>
+            • Migration d'une application C++ existante vers une architecture avec un backend en Java et un frontend en React.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Gestion du cycle de développement.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Mise en place de scripts de déploiement et conteneurisation avec Docker.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Fourniture d'une documentation complète.
+          </p>
+          <p className={`${Desc} font-medium`}>
+            Outils: Java, React, C++, Docker.
+          </p> */}
 
-            </div>
-
-            <div className="flex">
-
+         {/*  <div className="flex pt-2">
             <div className='w-3/4'>
               <p className={`${Intitule}`}>
                 Renault
@@ -219,56 +326,35 @@ export default function Home() {
                 Avril - Août 2023
               </p>
             </div>
-
-          </div>          
-
-          <p className={`${Desc}`}>
-            • Développement d'applications Android Automotive pour véhicule électrique (MEGANE E-TECH) - <span className=" font-medium">Déploiement Beta sur 100 véhicules </span>.
-          </p>
-          <p className={`${Desc} pl-3`}>
-            • Réalisation d'une application affichant la puissance de charge du véhicule sur l'écran d'info divertissement 
-          </p>
-          <p className={`${Desc} pl-3`}>
-            • Réalisation d'une application permettant de noter les bornes de recharge à l'issue d'une session de charge 
-          </p>
-          <p className={`${Desc}`}>
-            • Étude sur la congestion des bornes de recharge et proposition de solutions.
-          </p>
-          <p className={`${Desc} pl-3`}>
-            • Collecte et analyse de données sur deux mois via ChargeMap -  <span className=" font-medium"> Etude portant sur 1500 bornes de recharge </span> .
-          </p>
-          <p className={`${Desc} pl-3`}>
-            • Création de graphiques animés pour illustrer le phénomène.
-          </p>
-          <p className={`${Desc} pl-3`}>
-            • Développement d'un site web pour la présentation des résultats.
-          </p>
-          
-
-
-
-
-
-
-
-
-
-          <div className="flex pt-2">
-
-            <div className='w-3/4'>
-              <p className={`${Desc}`}>
-                Développeur, Stage Ingénieur 3ème année
-              </p>
-            </div>
-            <div className='w-1/4'>
-              <p className={`${Locdate}`}>
-                Elancourt, 78990
-              </p>
-            </div>
-
           </div>
-
           <div className="flex">
+            <div className='w-full'>
+              <p className={`${Desc} font-semibold`}>
+                Ingénieur Logiciel - Android Automotive
+              </p>
+            </div>
+          </div>
+          <p className={`${Desc} pl-3`}>
+            • Développement d'une application affichant la puissance de charge du véhicule.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Déploiement en version bêta sur 100 véhicules.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Création d'une application de notation pour les bornes de recharge après une session de charge.
+          </p>
+          <p className={`${Desc} pl-3`}>
+            • Analyse de la congestion sur 1500 bornes de recharge.
+          </p>
+          <p className={`${Desc} font-medium`}>
+            Outils: Android Automotive, Java, Kotlin.
+          </p> */}
+
+
+
+
+        
+          {/* <div className="flex">
 
             <div className='w-3/4'>
               <p className={`${Intitule}`}>
@@ -291,7 +377,7 @@ export default function Home() {
           </p>
           <p className={`${Desc} pl-3`}>
             • Développement Web pour publication de la documentation.
-          </p>
+          </p> */}
 
 
           {/*
@@ -410,19 +496,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex  pt-1">
-            <div className='w-24'>
-              <p className={`${Desc}`}>
-                <span className='font-bold'>Jeux C/C++</span>
-
-              </p>
-            </div>
-            <div className='w-auto'>
-              <p className={`${Desc}`}>
-                Projets semestriels en équipe afin de créer un Tower Defense en C et un jeu de carte Pokemon C++.
-              </p>
-            </div>
-          </div>
 
 
           <p className={`${Title} flex w-full`}>
@@ -437,7 +510,7 @@ export default function Home() {
 
           <p className={`${Desc} w-full px-1 flex`}>
             <div className='w-1/2 flex justify-start justify-items-end items-center font-medium'>
-              Golf • Tennis • Finance • LeetCode • Cybersécurité • Dev Web 
+              Golf • Dev 
             </div>
             <div className={`${Locdate} w-1/2 flex justify-end justify-items-end items-center`}>
               <a href="https://clement-delbarre-web-site.vercel.app/" >
